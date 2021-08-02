@@ -11,7 +11,7 @@ r_summoner = requests.get('https://br1.api.riotgames.com/lol/summoner/v4/summone
 result_status = json.loads(r_status.content)
 
 # Requisição status do Invocador
-nick = str(input('Qual o seu nick no jogo para sabermos o seu lvl? '))
+nick = str(input('Qual o seu nick no jogo para sabermos o seu lvl???? '))
 
 
 def dadosInvocador(nome):
